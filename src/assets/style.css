@@ -1,19 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 :root {
-    --font-family: 'Roboto', sans-serif;
-    --font-size: 18px;
-    --font-weight-normal-text: 300;
-    --font-weight-h1: 700;
-    --font-weight-h2-6: 400;
+  --font-family-default: 'Roboto', sans-serif;
+  --font-size-default: 16px;
 }
 
 body {
-    font-size: var(--font-size);
-    font-weight: var(--font-weight-normal-text);
-    font-family: var(--font-family);
+  box-sizing: border-box;
+  padding: 16px;
+  font-size: var(--font-size-default);
+  font-family: var(--font-family-default);
 }
